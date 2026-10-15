@@ -1,0 +1,48 @@
+{
+  "student": {
+    "student_id": "2A202602507",
+    "split_seed": 8554,
+    "model_seed": 1794,
+    "v_ego": 12.0
+  },
+  "model_seeds": [
+    1794,
+    1795,
+    1796,
+    1797,
+    1798
+  ],
+  "PercMLP+_openloop_per_seed": [
+    {
+      "seed": 1794,
+      "all": 0.8127961158752441,
+      "brake_slice": 0.9723783731460571,
+      "slice_share": 0.04368620670422221
+    },
+    {
+      "seed": 1795,
+      "all": 0.8201223015785217,
+      "brake_slice": 1.008601427078247,
+      "slice_share": 0.04368620670422221
+    },
+    {
+      "seed": 1796,
+      "all": 0.8374637961387634,
+      "brake_slice": 1.0038930177688599,
+      "slice_share": 0.04368620670422221
+    },
+    {
+      "seed": 1797,
+      "all": 0.7959145307540894,
+      "brake_slice": 0.9327020645141602,
+      "slice_share": 0.04368620670422221
+    },
+    {
+      "seed": 1798,
+      "all": 0.8071339726448059,
+      "brake_slice": 1.0039619207382202,
+      "slice_share": 0.04368620670422221
+    }
+  ],
+  "method": "Recomputed l2_summary from saved percfix models and the held-out trajectory split; original evidence files unchanged."
+}
